@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    font-family: "Poppins", serif;
+    background-image: url(/images/pexels-polina-kovaleva-5717479.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,40 +14,41 @@ body {
   }
   
   .todo-container {
-    background: #fff;
-    padding: 20px;
+    background: #684829;
+    padding: 50px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
   }
   
   .todo-container h1 {
     margin: 0 0 15px;
     text-align: center;
-    font-size: 1.5em;
-    color: #333;
+    font-size: 1.9rem;
+    color: white;
   }
   
   .todo-container input {
     width: calc(100% - 50px);
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #a99174;
     border-radius: 4px;
   }
   
   .todo-container button {
     padding: 10px;
-    background: #28a745;
-    color: #fff;
+    background: black;
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
   
   .todo-container button:hover {
-    background: #218838;
+    background-color: black;
+    color: white;
   }
   
   .todo-list {
@@ -53,18 +58,18 @@ body {
   }
   
   .todo-list li {
-    background: #f9f9f9;
+    background: white;
     padding: 10px;
     margin: 5px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 4px;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
   }
   
   .todo-list li button {
-    background: #dc3545;
+    background: black;
     padding: 5px 10px;
     cursor: pointer;
     border: none;
@@ -72,5 +77,6 @@ body {
   }
   
   .todo-list li button:hover {
-    background: #c82333;
+    background-color: black;
+    color: white;
   }
