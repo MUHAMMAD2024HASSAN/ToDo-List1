@@ -10,12 +10,12 @@ function addTask() {
         <button onclick="deleteTask(this)">Delete</button>
       `;
       todoList.appendChild(listItem);
-      todoInput.value = '';  // Clear the input after adding task
+      todoInput.value = '';
     } else {
       alert('Please enter a task!');
     }
   }
   
   function deleteTask(button) {
-    button.parentElement.remove();  // Removes the task (list item)
+    button.parentElement.remove();
   }
