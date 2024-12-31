@@ -1,26 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Notepad</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO-DO List</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Simple Notepad</h1>
-        <div class="note-area">
-            <textarea id="noteText" placeholder="Write your note here..."></textarea>
-        </div>
-        <div class="controls">
-            <button onclick="saveNote()">Save Note</button>
-            <button onclick="clearNote()">Clear</button>
-            <button onclick="deleteNote()">Delete Note</button>
-            <button onclick="clearAllNotes()">Clear All Notes</button>
-        </div>
-        <h2>Saved Notes</h2>
-        <ul id="noteList"></ul>
-    </div>
-    <script src="./javascript/code.js"></script>
+  <div class="todo-container">
+    <h1>TO-DO List</h1>
+    <input type="text" id="todoInput" placeholder="Add a new task...">
+    <button onclick="addTask()">Add Task</button>
+    <ul class="todo-list" id="todoList"></ul>
+  </div>
+  <script src="./javascript/code.js"></script>
 </body>
 </html>
